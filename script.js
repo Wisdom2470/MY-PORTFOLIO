@@ -94,7 +94,7 @@ if (adminLoginForm) {
         const user = document.getElementById('adminUser').value;
         const pass = document.getElementById('adminPass').value;
         // Simple authentication (replace with secure backend in production)
-        if (user === 'wisdom' && pass === 'wisdom2025') {
+        if (user === 'WISDOM' && pass === 'WISDOM247') {
             adminLoginForm.style.display = 'none';
             if (adminPanel) adminPanel.style.display = 'block';
             loadFeedbacks();
@@ -140,3 +140,4 @@ function revealOnScroll() {
 }
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
+
